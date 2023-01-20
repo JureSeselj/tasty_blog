@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-@$l^(#_vsp7skp&^njy0sqt$3%=7ura+e)^a80t6p#u$oks8$y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tasty-blog-app.herokuapp.com']
+ALLOWED_HOSTS = ['tasty-blog-app.herokuapp.com', 'localhost']
 
 
 # Application definition
