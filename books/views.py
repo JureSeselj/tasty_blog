@@ -107,6 +107,7 @@ def contact(request):
     # Get data from the contact form
     if request.method == 'POST':
         name = request.POST['name']
+        name = name.capitalize()
 #       surname = request.POST['surname']
 #       subject = request.POST['subject']
 #       email = request.POST['email']
