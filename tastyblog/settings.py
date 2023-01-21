@@ -157,7 +157,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_HOST = ''
+EMAIL_HOST = 'localhost'
 EMAIL_PORT = 8000
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
