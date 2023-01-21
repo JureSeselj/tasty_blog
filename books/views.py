@@ -12,11 +12,9 @@ from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
 def index(request):
     """View to return the index page"""
     queryset = Post.objects.filter(featured=True).order_by('-timestamp')
-    categories = Category.objects.all()
 
     context = {
         'post_list': queryset,
-        'categories_list': categories,
     }
 
     return render(request, 'index.html', context)
@@ -91,11 +89,8 @@ class PostLike(View):
 
 def about(request):
     """View to return the about page"""
-    categories = Category.objects.all()
-    context = {
-        'categories_list': categories
-    }
-    return render(request, 'about.html', context)
+    
+    return render(request, 'about.html')
 
 
 class BlogPost(generic.ListView):
@@ -103,16 +98,11 @@ class BlogPost(generic.ListView):
     model = Post
     template_name = 'blog.html'
     paginate_by = 3
-    extra_context = {'categories_list': Category.objects.all()}
 
 
 def contact(request):
     """View to return the contact page"""
-    categories = Category.objects.all()
-    context = {
-
-            'categories_list': categories
-    }
+    
 
     # Get data from the contact form
     if request.method == 'POST':
@@ -132,13 +122,12 @@ def contact(request):
         messages.success(request, f"Your email has been sent!")
         return render(request, 'contact.html', {'name': name})
     else:      
-        return render(request, 'contact.html', context)
+        return render(request, 'contact.html')
 
 
 def categories(request):
     """View to return the categories page"""
-    categories = Category.objects.all()
-    context = {'categories_list': categories}
+    
     return render(request, 'categories.html', context)
 
 
@@ -165,9 +154,7 @@ def ProfileView(request):
         user_form = UserUpdateForm(instance=request.user)
         profile_form = ProfileUpdateForm(instance=request.user.profile)
 
-    categories = Category.objects.all()
     context = {
-        'categories_list': categories,
         'user_form': user_form,
         'profile_form': profile_form,
     }
