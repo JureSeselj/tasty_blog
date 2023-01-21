@@ -27,19 +27,18 @@
                 </div>
             </a>
             <hr>
-                {% empty %}
-                <div class="results-null" style="margin-top: -180px;">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>We Are Sorry</h2>
-                            <p>There are no search for <span class="text-success">"{{ searched }}"</span> in the website.</p>
-                            <p>Try searching again.</p>
-                        </div>
+            {% empty %}
+            <div class="results-null" style="margin-top: -180px;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>We Are Sorry</h2>
+                        <p>There are no search for <span class="text-success">"{{ searched }}"</span> in the website.</p>
+                        <p>Try searching again.</p>
                     </div>
-
                 </div>
             </div>
-                {% endfor %}
+        </div>
+        {% endfor %}
         {% else %}
         <div class="results-empty">
             <div class="row">
@@ -48,7 +47,9 @@
                 </div>
             </div>
         </div>
-        {% endif %}
+    </div>
+    {% endif %}
+    </div>
     </div>
 </section>
 <!-- END OF SEARCHED RESULTS SECTION -->
