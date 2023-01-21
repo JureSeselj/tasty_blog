@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views import generic, View
 from posts.models import *
 from .forms import CommentForm
@@ -70,3 +70,12 @@ class PostDetail(View):
                 "liked": liked,
             },
         )
+
+
+def about(request):
+    """View to return the about page"""
+    categories = Category.objects.all()
+    context = {
+        'categories_list': categories
+    }
+    return render(request, 'about.html', context)
