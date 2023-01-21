@@ -258,7 +258,6 @@ button,
 
 #alert-box .containar .col-md-8 {
     margin-top: 50px;
-
 }
 
 /*******************************
@@ -292,7 +291,6 @@ button,
     border: 2px solid #fff;
     transition: all ease-in 0.3s;
     font-size: clamp(0.8rem, 2vw, 1.1rem);
-
 }
 
 #hero .btn:hover {
@@ -452,7 +450,6 @@ button,
     font-size: 0.8rem;
 }
 
-
 .author-img {
     width: 40px;
     height: 40px;
@@ -580,7 +577,6 @@ button,
         box-shadow: rgb(1 1 1 / 50%) 1px 10px 10px -1px;
     }
 
-
     .login-box {
         position: absolute;
         right: 5px;
@@ -594,7 +590,6 @@ button,
     #blog-content-2 {
         display: block;
     }
-
 
     #post-content .post-content-img {
         width: 100%;
@@ -697,4 +692,14 @@ button,
         width: 100% !important;
     }
 
+    #profile .form-control {
+        width: 90% !important;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    input{
+         font-size: 12px;
+     }
 }
