@@ -29,3 +29,25 @@ $(document).ready(function () {
     }
   });
 });
+
+// Close search box panel
+$(document).ready(function () {
+    $("#search-box .fa-times").click(function () {
+      $("#search-box").removeClass("active-box")
+    });
+  });
+  
+  // Smooth scrolling to all links
+  $("a").on('click', function (e) {
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      e.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800)
+    };
+    // End if
+  });
