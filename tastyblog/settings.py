@@ -51,8 +51,8 @@ INSTALLED_APPS = [
     'cloudinary',
     'django_summernote',
     'crispy_forms',
+    'posts.apps.PostsConfig',
     'books',
-    'posts',
 ]
 
 SITE_ID = 1
@@ -163,3 +163,5 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+AUTH_PROFILE_MODULE = 'posts.Profile'
