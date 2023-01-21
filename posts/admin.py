@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Author, Category, Post
+from django_summernote.admin import SummernoteModelAdmin
 
 # Register your models here.
 
@@ -13,7 +14,7 @@ class AuthorAdmin(admin.ModelAdmin):
 
 
 @admin.register(Post)
-class PostAdmin(admin.ModelAdmin):
+class PostAdmin(SummernoteModelAdmin):
     """
     Add fields which will use summernote editor in admin panel
     """
