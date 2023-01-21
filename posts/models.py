@@ -59,8 +59,8 @@ class Post(models.Model):
     categories = models.ManyToManyField(Category)
     time_to_cook = models.IntegerField(default=0)
     stars = models.PositiveIntegerField(
-            default=3,
-            validators=[
+        default=3,
+        validators=[
             MinValueValidator(1),
             MaxValueValidator(5)])
     status = models.IntegerField(choices=STATUS, default=0)

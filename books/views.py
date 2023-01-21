@@ -1,7 +1,8 @@
 from django.db.models import Q
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404, reverse, redirect, resolve_url
+from django.shortcuts import(
+    render, get_object_or_404, reverse, redirect, resolve_url)
 from django.views import generic, View
 from posts.models import *
 from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
@@ -11,12 +12,12 @@ from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
 
 def index(request):
     """View to return the index page"""
-    queryset = Post.objects.filter(featured=True).order_by('-timestamp')
+    queryset = Post.objects.filter(
+        featured=True).order_by('-timestamp')
 
     context = {
         'post_list': queryset,
     }
-
     return render(request, 'index.html', context)
 
 
@@ -51,14 +52,15 @@ class PostDetail(View):
 
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
-        comment_form = CommentForm(data=request.POST)
+            comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
             comment_form.instance.email = request.user.email
             comment_form.instance.name = request.user.username
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
-            messages.success(request, f"Your comment was sent successfully and is awaiting approval!")
+            messages.success(request, f"""
+            Your comment was sent successfully and is awaiting approval!""")
         else:
             comment_form = CommentForm()
         return render(
@@ -89,7 +91,6 @@ class PostLike(View):
 
 def about(request):
     """View to return the about page"""
-    
     return render(request, 'about.html')
 
 
@@ -104,7 +105,7 @@ def contact(request):
     """View to return the contact page"""
     
 
-    # Get data from the contact form
+# Get data from the contact form
     if request.method == 'POST':
         name = request.POST['name']
         name = name.capitalize()
