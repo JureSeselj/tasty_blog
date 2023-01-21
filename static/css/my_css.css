@@ -181,6 +181,10 @@ button,
     padding: 25px;
 }
 
+#searched-box .searched-results .row:hover {
+    background: rgb(228, 228, 228);
+}
+
 #searched-box img { 
     width: 50%;
     margin-bottom: 15px;
@@ -664,17 +668,16 @@ button,
         text-align: center;
     }
 
-    #searched-box .row {
-        padding: 25px 0 97px;
-    }
-
     #contact .contact-details {
         padding: 50px 33px;
         margin: 20px 0;
     }
 
-    #searched-box .container {
+    #searched-box .row {
+        padding: 15px 0 ;
+    }
 
+    #searched-box .container {
         margin-bottom: 25vh !important;
     }
     
@@ -682,7 +685,6 @@ button,
         width: 60%;
         margin: 0 auto;
         display: block;
-        margin-top: -80px;
     }
 
     #searched-box .info-text {
