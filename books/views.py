@@ -1,14 +1,16 @@
+from django.views import generic, View
+from django.contrib import messages
+from posts.models import *
+from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
 from django.db.models import Q
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
-from django.shortcuts import(
+from django.shortcuts import (
     render, get_object_or_404, reverse, redirect, resolve_url)
-from django.views import generic, View
-from posts.models import *
-from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
+from django.conf import settings
+
 
 # Create your views here.
-
 
 def index(request):
     """View to return the index page"""
@@ -103,7 +105,7 @@ class BlogPost(generic.ListView):
 
 def contact(request):
     """View to return the contact page"""
-    
+
 
 # Get data from the contact form
     if request.method == 'POST':
@@ -123,13 +125,12 @@ def contact(request):
 #       )
         messages.success(request, f"Your email has been sent!")
         return render(request, 'contact.html', {'name': name})
-    else:      
+    else:     
         return render(request, 'contact.html')
 
 
 def categories(request):
     """View to return the categories page"""
-    
     return render(request, 'categories.html', context)
 
 
@@ -143,7 +144,7 @@ def CategoriesView(request, cats):
 def ProfileView(request):
     """View to return the profile page"""
     if request.method == 'POST':
-        user_form = UserUpdateForm(request.POST,instance=request.user)
+        user_form = UserUpdateForm(request.POST, instance=request.user)
         profile_form = ProfileUpdateForm(request.POST, 
                                          request.FILES, 
                                          instance=request.user.profile)
@@ -151,7 +152,7 @@ def ProfileView(request):
             user_form.save()
             profile_form.save()
             messages.success(request, f"Your account has been updated!")
-            return redirect('profile')               
+            return redirect('profile')              
     else:
         user_form = UserUpdateForm(instance=request.user)
         profile_form = ProfileUpdateForm(instance=request.user.profile)
