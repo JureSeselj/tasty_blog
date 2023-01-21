@@ -76,8 +76,8 @@
                     <div class="comment-form">
                         <hr class="hr-small">
                         {% if commented %}
-                        <div class="alert alert-success" role="alert" id="alert">
-                            Thanks {{ user.username }}. Your comment is awaiting approval!
+                        <div class="alert alert-success" role="alert">
+                            Thanks {{ user.username }}. Your comment is awaiting for approval!
                         </div>
                         {% else %}
                         {% if user.is_authenticated %}
