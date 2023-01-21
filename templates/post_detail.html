@@ -9,7 +9,7 @@
         <div class="row">
             <hr class="hr-small">
             <div class="col-md-10 mx-auto p-md-3">
-                <img class="post-content-img" src="{{ post.featured_image.url }}" alt="">
+                <img class="post-content-img" src="{{ post.featured_image.url }}" alt="{{ post.title }} Image">
                 <div class="content-description">
                     {% for cat in post.categories.all %}
                     <h4 class="pt-3"><i class="fas fa-bowl-rice"></i>{{ cat }}</h4>
@@ -36,7 +36,6 @@
                         <div class="time">
                             <span><i class="fas fa-clock"></i> {{ post.time_to_cook }} Minutes</span>
                         </div>
-
                 </div>
                 <div class="author-info">
                     <span><img class="author-img" src="{{ post.author.author_picture.url }}"
@@ -60,7 +59,6 @@
                     </strong>
                     {% endif %}
                     <span class="text-secondary">| <i class="far fa-comments"></i>{{ num_comments }}</span>
-
                 </div>
                 <div class="post-text-content mt-3">
                     <h4>{{ post.overview }}</h4>
@@ -93,7 +91,7 @@
                         {% endif %}
                     </div>
                     <h4>Comments</h4>
-                    <span class="text-secondary"><i class="far fa-comments"></i>{{ num_comments }}</span>
+                    <span class="text-secondary">| <i class="far fa-comments"></i>{{ num_comments }}</span>
                     {% for comment in comments %}
                     <div class="users-comments">
                         <!-- <span><img class="author-img"
@@ -101,7 +99,6 @@
                                 alt=""></span> -->
                         <span>{{ comment.name }} | </span>
                         <span><i class="fas fa-clock"></i> {{ comment.timestamp | timesince }}</span>
-                        <!-- <span><i class="fas fa-heart"></i>12</span> -->
                         <div class="user-comment">
                             <p class="user-comment-title"></p>
                             <p class="mt-3 w-50">{{ comment.body | linebreaks }}</p>
