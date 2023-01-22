@@ -16,7 +16,7 @@ from django.conf import settings
 def index(request):
     """View to return the index page"""
     queryset = Post.objects.filter(
-        featured=True).order_by('-timestamp')
+        featured=True, status=1).order_by('-timestamp')
 
     context = {
         'post_list': queryset,
@@ -100,6 +100,7 @@ def about(request):
 class BlogPost(generic.ListView):
     """View to return the blog page"""
     model = Post
+    queryset = Post.objects.filter(status=1)
     template_name = 'blog.html'
     paginate_by = 6
 
@@ -137,7 +138,8 @@ def categories(request):
 
 def CategoriesView(request, cats):
     """View to return the posts filtered by categories"""
-    categories_posts = Post.objects.filter(categories__title__contains=cats)
+    categories_posts = Post.objects.filter(
+        categories__title__contains=cats, status=1)
     return render(request, 'categories_posts.html', {
         'cats': cats.title(), 'categories_posts': categories_posts})
 
