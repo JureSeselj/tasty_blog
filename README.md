@@ -2,10 +2,10 @@
 # Tasty Blog 
 
 # Goal for this Project
-This project is a Full Stack website built using the Django framework. Tasty Blog is a recipe
-book where users can look or search for a recipe to prepare. When the user is logged in they can
-also like/unlike a post, comment on a post and upload or update their user image and details. As
-a user admin, they can post new recipes, approve comments and add new authors.
+Welcome to Tasty Blog, this project is a Full Stack website built using the Django framework. Tasty Blog 
+is a recipe book where users can look or search for a recipe to prepare. When the user is logged in they 
+can also like/unlike a post, comment on a post and upload or update their user image and details. 
+As a user admin, they can post new recipes, approve comments and add new authors.
 
 [Live Project Here]()
 
