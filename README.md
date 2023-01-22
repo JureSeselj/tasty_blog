@@ -597,7 +597,7 @@ Testing results [here](TESTING.md)
 1. Create a Procfile "web: gunicorn your_project_name.wsgi"
 2. When development is complete change the debug setting to: DEBUG = False in settings.py
 3. In this project the summernote editor was used so for this to work in Heroku add: X_FRAME_OPTIONS = 'SAMEORIGIN' to settings.py.
-4. In Heroku settings config vars delete the record for DISABLE_COLLECTSTATIC
+4. In Heroku settings, delete the config vars for DISABLE_COLLECTSTATIC = 1
 
 ## Forking This Project
 
@@ -625,7 +625,7 @@ to copy the URL
 ### Content
 
 * All food recipies were taken from [Taste Atlas](https://www.tasteatlas.com/)
-* The books content and images were taken from[Eason](https://www.easons.com/)
+* The books content and images were taken from [Eason](https://www.easons.com/)
 * The images were taken from [Unsplash](https://unsplash.com/)
 * The Tasty Blog logos and favicon are my own designed and build)
 
