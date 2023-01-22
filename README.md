@@ -108,3 +108,37 @@ As a user admin, they can post new recipes, approve comments and add new authors
 4. Delete user, recipes, author, categories and comments.
 5. Approve user's comments.
 6. Change the website permissions for a user.
+
+### Agile Methodology
+
+All functionality and development of this project were managed using GitHub which Projects can be found
+[here](https://github.com/JureSeselj/tasty_blog/issues)
+
+### The Scope
+
+#### Main Site Goals
+
+* To provide users with a good experience when using the website with food recipes.
+* To provide users with a visually pleasing website that is intuitive to use and easy to navigate.
+* To provide a website with a clear purpose.
+* To provide role-based permissions that allows user to interact with the website.
+* To provide tools that allow users to search for recipes.
+
+## Design
+
+#### Colours
+
+![Colours Palete]
+
+* The colour scheme is kept simple by opting for a combination of white text set against the image
+background and black text against the white background. For the navbar was set as a white background
+colour.
+
+#### Typography
+
+* The Lato font is used as the main font for the whole project and the Kaushan font is used to
+display the word enjoy in the Post Details and About pages.
+
+#### Imagery
+
+* All the imagery is related to the recipes and website design.
