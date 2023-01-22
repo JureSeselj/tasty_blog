@@ -54,10 +54,10 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
   these are related to Google Fonts and vendor extension prefixes which will not affect the CSS performance.
 
 ### JavaScript Validation
-![CSS Validation Result]()
+![CSS Validation Result](./assets/readme/test/tasty_blog_js_validator_results.jpg)
 
 ### jQuery Validation
-![CSS Validation Result]()
+![CSS Validation Result](./assets/readme/test/tasty_blog_jquery_validator_results.jpg)
 
 ### Console Results:
 ![Console Result]()
