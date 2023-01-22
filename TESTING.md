@@ -13,6 +13,7 @@ were entered into the online checker and no errors were found in any of the cust
 * [apps.py](./assets/readme/test/pep8/posts_pep8_apps.jpg)
 * [models.py](./assets/readme/test/pep8/posts_pep8_models.jpg)
 * [apps.py](./assets/readme/test/pep8/posts_pep8_apps.jpg)
+* [apps.py](./assets/readme/test/pep8/posts_pep8_apps.jpg)
 * [forms.py](./assets/readme/test/pep8/posts_pep8_forms.jpg)
 * [signals.py](./assets/readme/test/pep8/posts_pep8_signals.jpg)
 * [urls.py](./assets/readme/test/pep8/posts_pep8_urls.jpg)
