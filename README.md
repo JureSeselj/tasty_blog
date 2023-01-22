@@ -33,6 +33,7 @@ As a user admin, they can post new recipes, approve comments and add new authors
     - [Post Detail Page - Top](#post-detail-page---top)
     - [Post Detail Page - Steps](#post-detail-page---steps)
     - [Post Detail Page - Comments](#post-detail-page---comments)
+    - [Edit Comments Page](#edit-comments-page)
     - [Contact Page](#contact-page)
     - [Categories Page](#categories-page)
     - [Categories Results](#categories-results)
@@ -58,6 +59,7 @@ As a user admin, they can post new recipes, approve comments and add new authors
     - [Delete Comment](#delete-comment)
     - [Delete Comment - 2](#delete-comment---2)
     - [Delete Comment - 3](#delete-comment---3)
+    - [Edit Comment](#edit-comment)
     - [Email Sent - Success](#email-sent---success)
     - [Email Sent - Failed](#email-sent---failed)
     - [Empty Search](#empty-search)
@@ -204,9 +206,15 @@ comments the post has received.<br>
 
 ![Post Detail Page - Comments]()
 
-* At the bottom of this page, users can read the comments posted by
-other users. If the user is logged in, they are
-allowed to comment and delete their own post comments.
+* At the bottom of this page, users can read the comments posted by other users. If the user is logged or is a 
+superuser they have access to the buttons for deleting or updating comments.
+
+### Edit Comments Page
+
+![Post Detail Page - Comments]()
+
+* On this page, users are allowed to comment, delete and edit their own post comments. The website superuser can 
+* delete or update any comments on the blog without having to access the admin panel.
 
 ### Contact Page
 
@@ -381,6 +389,13 @@ button at the bottom of their comments.<br>
 
 * After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
   top of the page, "Your comment was deleted successfully".<br>
+
+### Edit Comment
+
+![Edit Comment]()
+
+* After pressing the Update, users will see a message on the 
+  top of the page, "The comment was successfully updated".<br>
 
 ### Email Sent - Success
 
