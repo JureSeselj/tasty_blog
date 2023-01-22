@@ -1,29 +1,16 @@
+from django.urls import path
 from . import views
+from .views import *
 from django.conf import settings
 from django.conf.urls.static import static
-from django.contrib import admin
-from django.urls import path
-from .forms import CommentForm
-from .views import *
 
-"""URL Paths"""
+
+"""url paths"""
 urlpatterns = [
-    path('delete_comment/<int:comment_id>', views.delete_comment,
-         name='delete_comment'),
-    path('edit_comment/<int:pk>', views.EditComment.as_view(),
-         name='edit_comment'),
-    path('', views.index, name="index"),
-    path('search/', views.search, name="search"),
-    path('about/', views.about, name="about"),
-    path('blog/', views.BlogPost.as_view(), name="blog"),
-    path('contact/', views.contact, name="contact"),
-    path('categories/', views.categories, name="categories"),
-    path('categories_posts/<str:cats>', views.categories_view,
-         name="categories_posts"),
-    path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
-    path('like/<slug:slug>', views.PostLike.as_view(), name='post_like'),
-    path('profile', views.profile_view, name='profile'),
-
+    path('books', views.books, name='books'),
+    path('add_book/', views.AddBook.as_view(), name='add_book'),
+    path('edit_book/<int:pk>', views.EditBook.as_view(), name='edit_book'),
+    path('delete_book/<int:book_id>', views.delete_book, name='delete_book'),
 ]
 
 
