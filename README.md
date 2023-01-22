@@ -299,3 +299,116 @@ using the contact form available on this page.
 
 * On the website footer, users can see basic information about the blog such as contact, social media, 
   copyright, and a quote about food recipes.
+
+[Back to Top](#table-of-contents)
+
+## Messages and Interaction With Users
+
+* Some interactive messages were added to the project to make the navigation on the website easier and to improve the
+user's experience.
+
+### Sign up
+
+![Sign up]()
+
+* When users sign up to the website they will see a message at the top of the page saying "Successfully signed in as
+(username)".<br>
+
+### Login
+
+![Login]()
+
+* When users sign in to the website they will see a message at the top of the page saying "Successfully signed in as
+(username)".<br>
+
+### Logout
+
+![Logout]()
+
+* When users log out of the website they will see a message at the top of the page saying "You have signed out".<br>
+
+### Profile Update
+
+![Profile Update]()
+
+* When users update their profile they will see a message at the top of the page saying that their account has been updated.<br>
+
+### Like Post
+
+![Like Post]()
+
+* *When users are logged in to the website they can like a post and they will see a message at the top of the page 
+  saying "You have liked this post".<br>
+
+### Unlike Post
+
+![Unlike Post]()
+
+* When users are logged in to the website they can unlike a post that has been liked by the user and they will see a message 
+  at the top of the page saying "You have unliked this post".<br>
+
+### Comment Post
+
+![Comment Post]()
+
+* When users are logged in to the website they can comment on a post and after they submit the comment they will see a 
+  message at the top of the page saying "Your comment was sent successfully and is awaiting approval".<br>
+
+### Comment Post - 2
+
+![Comment Post - 2]()
+
+* After a user submits a comment, they will see a message over the input comment saying "Thanks (username). Your 
+  comment is awaiting approval! <br>
+
+### Delete Comment
+
+![Delete Comment]()
+
+*When users are logged in to the website and they have previously posted a comment they will see the Delete 
+button at the bottom of their comments.<br>
+
+### Delete Comment - 2
+
+![Delete Comment - 2]()
+
+* If they wish to delete their comment, they can press the button Delete and a Bootstrap box model will pop up with the message 
+  "Are you sure you want to delete your comment?".<br>
+
+### Delete Comment - 3
+
+![Delete Comment - 3]()
+
+* After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
+  top of the page, "Your comment was deleted successfully".<br>
+
+### Email Sent - Success
+
+![Email Sent - Success]()
+
+* After users submit the form to info@tastyblog successfully, they will see the message, "Thanks for your email! 
+  We will contact you as soon as possible".<br>
+
+### Email Sent - Failed
+
+![Email Sent - Failed]()
+
+* If the email was not submitted successfully, users will see the message, "Sorry, something went wrong! 
+  Try to submit the email again".<br>
+
+### Empty Search
+
+![Empty Search]()
+
+* Any user can search for a keyword using the input search and if the search is done with an empty input they will see a
+message saying, "You forgot to search a recipe. Please try searching again.".<br>
+
+### No Search Found
+
+![No Search Found]()
+
+* And if there are no results matching or similar to the keyword, the user will see the following message, "We are sorry. 
+  There are no searches for (keyword) on the website. Try the search again".<br>
+
+[Back to Top](#table-of-contents)
+
