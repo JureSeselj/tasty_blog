@@ -52,7 +52,6 @@ INSTALLED_APPS = [
     'django_summernote',
     'crispy_forms',
     'posts.apps.PostsConfig',
-    'posts',
     'users.apps.UsersConfig',
 ]
 
