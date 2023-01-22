@@ -303,16 +303,16 @@ button,
 }
 
 .carousel-bg-1 {
-    background: url("/static/images/main_bg.jpg");
+    background: url("../images/main_bg.jpg");
 }
 
 .carousel-bg-2 {
-    background: url("/static/images/pasta_bg.jpg");
+    background: url("../images/pasta_bg.jpg");
     position: right top;
 }
 
 .carousel-bg-3 {
-    background: url("/static/images/cocktail-drink_bg_2.jpg");
+    background: url("../images/cocktail-drink_bg_2.jpg");
 }
 
 #hero .btn {
