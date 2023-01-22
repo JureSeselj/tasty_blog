@@ -6,6 +6,7 @@ from django.urls import path
 from .forms import CommentForm
 from .views import *
 
+"""URL Paths"""
 urlpatterns = [
     path('delete_comment/<int:comment_id>', views.delete_comment, name='delete_comment'),
     path('', views.index, name="index"),
