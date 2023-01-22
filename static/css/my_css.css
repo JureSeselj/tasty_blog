@@ -256,7 +256,17 @@ button,
 }
 
 .login-box {
-    margin-top: 20px;
+    margin-right: -10px;
+    margin-top: 35px;
+}
+
+.login-box .nav-link {
+    padding: 0.5rem 0.5rem;
+}
+
+.logout-box {
+    margin-right: -15px;
+    margin-top: 15px;
 }
 
 .login-box .author-img {
@@ -266,7 +276,7 @@ button,
 }
 
 #search-box-button {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .navbar-brand {
@@ -714,8 +724,8 @@ body.modal-open {
 }
 
 .book-card img {
-    height: 250px!important;
-    width: 60%!important;
+    height: 250px !important;
+    width: 60% !important;
     margin: 0 auto;
 }
 
@@ -735,7 +745,7 @@ body.modal-open {
     color: rgb(0, 255, 21) !important;
     font-size: 40px;
     left: 0;
-    bottom:-15px;
+    bottom: -15px;
     position: absolute;
 }
 
@@ -962,9 +972,11 @@ body.modal-open {
     input#id_picture {
         font-size: 12px;
     }
+    
     .edit-comments form textarea {
         width: 250px;
     }
+    
     .table>:not(caption)>*>* {
         padding: 0.6rem .5rem;
     }
