@@ -16,11 +16,13 @@ def books(request):
 
 
 class AddBook(LoginRequiredMixin, SuccessMessageMixin, CreateView):
-    """ Add Book """
+    """
+    Add Book
+    """
     model = Book
     form_class = BookForm
     template_name = 'add_book.html'
-    success_message = """Your post was sent successfully<br>    and is awaiting approval!"""
+    success_message = """Your post was sent successfully<br>and is awaiting approval!"""
 
     def form_valid(self, form):
         form.instance.name = self.request.user
@@ -28,7 +30,9 @@ class AddBook(LoginRequiredMixin, SuccessMessageMixin, CreateView):
 
 
 class EditBook(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
-    """Edit Book"""
+    """
+    Edit Book
+    """
     model = Book
     form_class = BookForm
     template_name = 'add_book.html'
@@ -36,7 +40,9 @@ class EditBook(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
 
 
 def delete_book(request, book_id):
-    """Delete Book"""
+    """
+    Delete Book
+    """
     book = get_object_or_404(Book, id=book_id)
     book.delete()
     messages.success(request, 'The post was deleted successfully')
