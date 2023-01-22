@@ -214,7 +214,7 @@ superuser they have access to the buttons for deleting or updating comments.
 ![Post Detail Page - Comments]()
 
 * On this page, users are allowed to comment, delete and edit their own post comments. The website superuser can 
-* delete or update any comments on the blog without having to access the admin panel.
+  delete or update any comments on the blog without having to access the admin panel.
 
 ### Contact Page
 
