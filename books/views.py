@@ -14,17 +14,32 @@ from django.contrib.messages.views import SuccessMessageMixin
 
 
 def index(request):
-    """View to return the index page"""
+    """Renders the index page"""
     queryset = Post.objects.filter(
         featured=True, status=1).order_by('-timestamp')
-
     context = {
         'post_list': queryset,
     }
     return render(request, 'index.html', context)
 
 
+def about(request):
+    """Renders the about page"""
+    return render(request, 'about.html')
+
+
+def contact(request):
+    """VRenders the contact page"""
+    return render(request, 'contact.html')
+
+
+def categories(request):
+    """Renders the categories page"""
+    return render(request, 'categories.html')
+
+
 class PostDetail(View):
+    """Renders the post detail Page"""
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
@@ -48,6 +63,7 @@ class PostDetail(View):
         )
 
     def post(self, request, slug, *args, **kwargs):
+        """Comment on the posts"""
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-timestamp")
@@ -80,7 +96,7 @@ class PostDetail(View):
 
 
 class PostLike(View):
-    """View for post like/Unlike"""
+    """Like/Unlike posts"""
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
@@ -105,26 +121,16 @@ class BlogPost(generic.ListView):
     paginate_by = 6
 
 
-def contact(request):
-    """View to return the contact page"""
-    return render(request, 'contact.html')
-
-
-def categories(request):
-    """View to return the categories page"""
-    return render(request, 'categories.html', context)
-
-
-def CategoriesView(request, cats):
-    """View to return the posts filtered by categories"""
+def categories_view(request, cats):
+    """Renders the posts filtered by categories"""
     categories_posts = Post.objects.filter(
         categories__title__contains=cats, status=1)
     return render(request, 'categories_posts.html', {
         'cats': cats.title(), 'categories_posts': categories_posts})
 
 
-def ProfileView(request):
-    """View to return the profile page"""
+def profile_view(request):
+    """Renders the profile page"""
     if request.method == 'POST':
         user_form = UserUpdateForm(request.POST, instance=request.user)
         profile_form = ProfileUpdateForm(request.POST,
@@ -134,7 +140,7 @@ def ProfileView(request):
             user_form.save()
             profile_form.save()
             messages.success(request, f"Your account has been updated!")
-            return redirect('profile')            
+            return redirect('profile')           
     else:
         user_form = UserUpdateForm(instance=request.user)
         profile_form = ProfileUpdateForm(instance=request.user.profile)
