@@ -98,7 +98,7 @@
                     <span class="text-secondary"><i class="far fa-comments"></i>{{ num_comments }}</span>
                     {% for comment in comments %}
                     <div class="users-comments">
-                        <span>{{ comment.name }} | </span>
+                        <span>{{ comment.name | slice:":10"}} | </span>
                         <span><i class="fas fa-clock"></i> {{ comment.timestamp | timesince }}</span>
                         <div class="user-comment">
                             <p class="user-comment-title"></p>
