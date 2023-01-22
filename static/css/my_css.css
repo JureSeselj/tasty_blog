@@ -107,10 +107,20 @@ button,
 
 .bg-setup {
     background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     transition: none;
     z-index: 1;
+}
+
+.main-bg-mobile {
+    background: url("/static/images/small-img/main_bg_mobile.jpg");
+    display: none;
+}
+
+.main-bg-desktop {
+    background: url("/static/images/main_bg.jpg");
+    display: block;
 }
 
 .bg-linear-gradient {
@@ -286,6 +296,19 @@ button,
 .carousel-caption {
     top: 60%;
     transform: translateY(-50%);
+}
+
+.carousel-bg-1 {
+    background: url("/static/images/main_bg.jpg");
+}
+
+.carousel-bg-2 {
+    background: url("/static/images/pasta_bg.jpg");
+    position: right top;
+}
+
+.carousel-bg-3 {
+    background: url("/static/images/cocktail-drink_bg_2.jpg");
 }
 
 #hero .btn {
@@ -729,6 +752,24 @@ body.modal-open {
         width: 80%;
     }
 
+    .carousel-bg-1,
+    .carousel-bg-2,
+    .carousel-bg-3 {
+        display: none;
+    }
+
+    .carousel-bg-1-mobile {
+        background: url("/static/images/small-img/main_bg_mobile.jpg");
+    }
+
+    .carousel-bg-2-mobile {
+        background: url("/static/images/small-img/pasta_bg_mobile.jpg");
+    }
+
+    .carousel-bg-3-mobile {
+        background: url("/static/images/small-img/cocktail_mobile.jpg");
+    }
+
     .hr-small {
         width: 90%;
         margin: 25px auto;
@@ -758,15 +799,23 @@ body.modal-open {
     #profile .form-control {
         width: 90% !important;
     }
+
+    .main-bg-mobile {
+        display: block !important;
+    }
+
+    .main-bg-desktop {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     #contact .container {
-        padding: 0 20px!important;
+        padding: 0 20px !important;
     }
 
     #contact .container .col-md-8 {
-       padding: 0 10px 15px ;
+       padding: 0 10px 15px;
     }
 }
 
