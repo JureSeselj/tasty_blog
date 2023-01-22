@@ -160,4 +160,4 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_PROFILE_MODULE = 'posts.Profile
+AUTH_PROFILE_MODULE = 'posts.Profile'
