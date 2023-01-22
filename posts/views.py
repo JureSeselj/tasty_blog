@@ -24,28 +24,28 @@ def index(request):
     context = {
         'post_list': queryset,
     }
-    return render(request, 'index.html', context)
+    return render(request, 'posts/index.html', context)
 
 
 def about(request):
     """
     Renders the about page
     """
-    return render(request, 'about.html')
+    return render(request, 'posts/about.html')
 
 
 def contact(request):
     """
     Renders the contact page
     """
-    return render(request, 'contact.html')
+    return render(request, 'posts/contact.html')
 
 
 def categories(request):
     """
     Renders the categories page
     """
-    return render(request, 'categories.html')
+    return render(request, 'posts/categories.html')
 
 
 class PostDetail(View):
@@ -63,7 +63,7 @@ class PostDetail(View):
 
         return render(
             request,
-            "post_detail.html",
+            "posts/post_detail.html",
             {
                 "post": post,
                 "comments": comments,
@@ -98,7 +98,7 @@ class PostDetail(View):
             comment_form = CommentForm()
         return render(
             request,
-            "post_detail.html",
+            "posts/post_detail.html",
             {
                 "post": post,
                 "comments": comments,
@@ -130,7 +130,7 @@ class BlogPost(generic.ListView):
     """
     model = Post
     queryset = Post.objects.filter(status=1)
-    template_name = 'blog.html'
+    template_name = 'posts/blog.html'
     paginate_by = 6
 
 
@@ -166,7 +166,7 @@ def profile_view(request):
         'user_form': user_form,
         'profile_form': profile_form,
     }
-    return render(request, 'profile.html', context)
+    return render(request, 'posts/profile.html', context)
 
 
 def search(request):
@@ -185,11 +185,11 @@ def search(request):
                'queryset': queryset
         }
 
-        return render(request, 'search.html', {
+        return render(request, 'posts/search.html', {
             'results': results, 'searched': searched})
     else:
 
-        return render(request, 'search.html', context)
+        return render(request, 'posts/search.html', context)
 
 
 @login_required
@@ -209,6 +209,6 @@ class EditComment(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     Edit comment
     """
     model = Comment
-    template_name = 'edit_comment.html'
+    template_name = 'posts/edit_comment.html'
     form_class = CommentForm
     success_message = 'The comment was successfully updated'

@@ -12,7 +12,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 @login_required
 def books(request):
     books_list = Book.objects.all().filter(approved=True).order_by("-timestamp")
-    return render(request, 'books.html', {'books_list': books_list})
+    return render(request, 'books/books.html', {'books_list': books_list})
 
 
 class AddBook(LoginRequiredMixin, SuccessMessageMixin, CreateView):
@@ -21,7 +21,7 @@ class AddBook(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     """
     model = Book
     form_class = BookForm
-    template_name = 'add_book.html'
+    template_name = 'books/add_book.html'
     success_message = """Your post was sent successfully<br>and is awaiting approval!"""
 
     def form_valid(self, form):
@@ -35,7 +35,7 @@ class EditBook(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     """
     model = Book
     form_class = BookForm
-    template_name = 'add_book.html'
+    template_name = 'books/add_book.html'
     success_message = 'The post was successfully updated'
 
 
