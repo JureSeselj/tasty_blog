@@ -56,9 +56,9 @@ As a user admin, they can post new recipes, approve comments and add new authors
     - [Unlike Post](#unlike-post)
     - [Comment Post](#comment-post)
     - [Comment Post - 2](#comment-post---2)
-    - [Delete Comment](#delete-comment)
+    - [Delete/Edit Comment](#deleteedit-comment)
+    - [Delete Comment - 1](#delete-comment---1)
     - [Delete Comment - 2](#delete-comment---2)
-    - [Delete Comment - 3](#delete-comment---3)
     - [Edit Comment](#edit-comment)
     - [Email Sent - Success](#email-sent---success)
     - [Email Sent - Failed](#email-sent---failed)
@@ -369,23 +369,23 @@ user's experience.
 * After a user submits a comment, they will see a message over the input comment saying "Thanks (username). Your 
   comment is awaiting approval! <br>
 
-### Delete Comment
+### Delete/Edit Comment
 
 ![Delete Comment]()
 
-*When users are logged in to the website and they have previously posted a comment they will see the Delete 
-button at the bottom of their comments.<br>
+*When users are logged in to the website and they have previously posted a comment or if the user is a superuser they will see the 
+Delete and Edit buttons at the bottom of comments.<br>
 
-### Delete Comment - 2
+### Delete Comment - 1
 
-![Delete Comment - 2]()
+![Delete Comment - 1]()
 
 * If they wish to delete their comment, they can press the button Delete and a Bootstrap box model will pop up with the message 
   "Are you sure you want to delete your comment?".<br>
 
-### Delete Comment - 3
+### Delete Comment - 2
 
-![Delete Comment - 3]()
+![Delete Comment - 2]()
 
 * After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
   top of the page, "Your comment was deleted successfully".<br>
