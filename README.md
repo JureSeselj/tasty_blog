@@ -62,21 +62,13 @@ As a user admin, they can post new recipes, approve comments and add new authors
     - [Email Sent - Failed](#email-sent---failed)
     - [Empty Search](#empty-search)
     - [No Search Found](#no-search-found)
-  - [Admin Panel / Superuser](#admin-panel--superuser)
+  - [Admin Panel/Superuser](#admin-panelsuperuser)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
       - [Django Packages](#django-packages)
     - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
     - [Testing](#testing)
   - [Creating the Django app](#creating-the-django-app)
-  - [Deployment of This Project](#deployment-of-this-project)
-  - [Final Deployment](#final-deployment)
-  - [Forking This Project](#forking-this-project)
-  - [Cloning This Project](#cloning-this-project)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Information Sources / Resources](#information-sources--resources)
-  - [Special Thanks](#special-thanks)
 
 ## User Experience - UX
 
@@ -487,3 +479,19 @@ delete the following ones:
 ### Testing
 
 Testing results [here](TESTING.md)
+
+## Creating the Django app
+
+1. Go to the Code Institute Gitpod Full Template [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+2. Click on Use This Template
+3. Once the template is available in your repository click on Gitpod
+4. When the image for the template and the Gitpod are ready open a new terminal to start a new Django App
+5. Install Django and gunicorn: pip3 install django gunicorn
+6. Install supporting database libraries dj_database_url and psycopg2 library: pip3 install dj_database_url psycopg2
+7. Create file for requirements: in the terminal window type pip freeze --local > requirements.txt
+8. Create project: in the terminal window type django-admin startproject your_project_name
+9. Create app: in the terminal window type python3 manage.py startapp your_app_name
+10. Add app to the list of installed apps in settings.py file: you_app_name
+11. Migrate changes: in the terminal window type python3 manage.py migrate
+12. Run the server to test if the app is installed, in the terminal window type python3 manage.py runserver
+13. If the app has been installed correctly the window will display The install worked successfully! Congratulations!
