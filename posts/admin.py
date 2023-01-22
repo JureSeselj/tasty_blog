@@ -41,7 +41,7 @@ class CommentAdmin(admin.ModelAdmin):
     """
     Add fields for comments in admin panel
     """
-    list_display = ('name', 'body', 'post', 'timestamp', 'approved')
+    list_display = ('name', 'body', 'post', 'timestamp', 'approved',)
     list_filter = ('approved', 'timestamp')
     search_fields = ('name', 'email', 'body')
     actions = ['approve_comments']
@@ -55,4 +55,4 @@ class ProfileAdmin(admin.ModelAdmin):
     """
     Add fields for the profile in the admin panel
     """
-    list_display = ('user')
+    list_display = ['user']
