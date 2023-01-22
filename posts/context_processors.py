@@ -1,4 +1,4 @@
-from posts.models import *
+from .models import *
 
 
 def extras(request):

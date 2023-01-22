@@ -52,7 +52,8 @@ INSTALLED_APPS = [
     'django_summernote',
     'crispy_forms',
     'posts.apps.PostsConfig',
-    'books',
+    'posts',
+    'users.apps.UsersConfig',
 ]
 
 SITE_ID = 1
@@ -73,6 +74,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'posts.context_processors.extras',
 ]
 
 ROOT_URLCONF = 'tastyblog.urls'
