@@ -73,6 +73,10 @@ As a user admin, they can post new recipes, approve comments and add new authors
   - [Final Deployment](#final-deployment)
   - [Forking This Project](#forking-this-project)
   - [Cloning This Project](#cloning-this-project)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Information Sources / Resources](#information-sources--resources)
+  - [Special Thanks](#special-thanks)
 
 ## User Experience - UX
 
@@ -549,3 +553,17 @@ to copy the URL
 5. Change the current working directory to the location that you want the cloned directory
 6. Type 'git clone' and paste the URL copied in step 3
 7. Press 'Enter' and the project is cloned
+
+## Credits
+
+### Content
+
+* All food recipies were taken from [Taste Atlas](https://www.tasteatlas.com/
+* The images were taken from [Unsplash](https://unsplash.com/)
+* The Tasty Blog logos and favicon are my own designed and build)
+
+### Information Sources / Resources
+
+* [W3Schools - Python](https://www.w3schools.com/python/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Scrimba - Pyhton](https://scrimba.com/learn/python)
