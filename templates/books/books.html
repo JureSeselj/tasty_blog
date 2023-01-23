@@ -5,8 +5,8 @@
 <!-- CONTENT BOOKS SECTION 1-->
 <section id="books-content-1" class="content book-content">
     <h2 class="title mt-70">Books</h2>
-    <h3 class="sub-title">Share with us your favourite CookBooks!!</h3>
-    <div class="center">
+    <h3 class="sub-title">Share with us your favourite cookbooks!!</h3>
+    <div class="text-center">
         <a href="{% url 'add_book' %}" class="btn btn-signup btn-lg mb-4">Add Book</a>
     </div>
     <div class="container">
@@ -26,12 +26,12 @@
                         <p><i class="far fa-comment-dots"></i><br>{{ book.review }}</p>
                     </div>
                     <div class="author-info">
-                        <span><i class="fa-solid fa-at"></i>{{ book.name | slice:":10"}} | </span>
+                        <span><i class="fa-solid fa-at"></i>{{ book.name | slice:":10" }} | </span>
                         <span><i class="fas fa-clock"></i>{{ book.timestamp }}</span>
                     </div>
                     <hr class="hr-small">
                     {% if user.is_authenticated and user.username == book.name or user.is_superuser %}
-                    <div class="center">
+                    <div class="text-center">
                         <a href="edit_book/{{book.id}}" class="btn-edit btn-sm btn-secondary mb-3"
                             aria-label="Go to the Edit Comments Page">Edit</a>
                         <button type="button" class="btn-delete btn-sm btn-danger mb-3" data-bs-toggle="modal"
@@ -45,7 +45,7 @@
                                     <h5 class="modal-title">Delete Post</h5>
                                 </div>
                                 <div class="modal-body">
-                                    Are you sure you want to delete your post??
+                                    Are you sure you want to delete your post?
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -68,7 +68,7 @@
 <!-- CONTENT BOOKS SECTION 2 (UNDER 991px)-->
 <section id="books-content-2" class="content book-content">
     <h2 class="title mt-70">Books</h2>
-    <h3 class="sub-title">Share with us your favourite CookBooks!!</h3>
+    <h3 class="sub-title">Share with us your favourite cookbooks!!</h3>
     <div class="text-center">
         <a href="{% url 'add_book' %}" class="btn btn-signup btn-lg mb-4">Add Book</a>
     </div>
@@ -78,7 +78,6 @@
             <div class="col-md-6">
                 <div class="book-card">
                     <div class="content-img">
-                        <div class="overlay"></div>
                         <img src="{{ book.picture.url }}" alt="{{ book.title }} Image">
                         <i class="fa-solid fa-circle-check"></i>
                     </div>
@@ -90,8 +89,8 @@
                         <p><i class="far fa-comment-dots"></i><br>{{ book.review }}</p>
                     </div>
                     <div class="author-info">
-                        <span><i class="fa-solid fa-at"></i>{{ book.name | slice:":10"}} | </span>
-                        <span><i class="fas fa-clock"></i>{{ book.timestamp }}| </span>
+                        <span><i class="fa-solid fa-at"></i>{{ book.name | slice:":10" }} | </span>
+                        <span><i class="fas fa-clock"></i>{{ book.timestamp }}</span>
                     </div>
                     <hr class="hr-small">
                     {% if user.is_authenticated and user.username == book.name or user.is_superuser %}
@@ -122,7 +121,6 @@
                     </div>
                     {% endif %}
                 </div>
-                </a>
             </div>
             {% endfor %}
         </div>
