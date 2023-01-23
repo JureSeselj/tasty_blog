@@ -5,7 +5,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 from cloudinary.models import CloudinaryField
 from django.urls import reverse
 
-# Create your models here.
+
 STATUS = ((0, "Draft"), (1, "Published"))
 User = get_user_model()
 
@@ -37,6 +37,8 @@ class Category(models.Model):
     """
     Model for category
     """
+    class Meta:
+        verbose_name_plural = 'Categories'
     title = models.CharField(max_length=20)
     category_image = CloudinaryField('image', default='placeholder')
 

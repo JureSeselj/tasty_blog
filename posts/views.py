@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from django.views import generic, View
-from django.contrib.messages.views import SuccessMessageMixin
 from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from .models import *
 from .forms import CommentForm, UserUpdateForm, ProfileUpdateForm
 from django.db.models import Q
@@ -11,8 +10,6 @@ from django.shortcuts import (
 from django.views.generic import UpdateView
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
-
-# Create your views here.
 
 
 def index(request):
@@ -140,7 +137,7 @@ def categories_view(request, cats):
     """
     categories_posts = Post.objects.filter(
         categories__title__contains=cats, status=1)
-    return render(request, 'categories_posts.html', {
+    return render(request, 'posts/categories_posts.html', {
         'cats': cats.title(), 'categories_posts': categories_posts})
 
 
@@ -171,7 +168,7 @@ def profile_view(request):
 
 def search(request):
     """
-    Search results
+    search results
     """
     queryset = Post.objects.all()
     if request.method == "POST":
