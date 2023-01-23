@@ -1008,3 +1008,9 @@ body.modal-open {
         margin-bottom: 95px !important;
     }
 }
+
+@media only screen and (min-height: 1050px) {
+    #searched-box .row {
+        padding: 5px 0 182px 0;
+    }
+}
