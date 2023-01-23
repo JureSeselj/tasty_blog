@@ -9,4 +9,5 @@ def extras(request):
     context = {
         'categories_list': categories
     }
+
     return context
