@@ -124,18 +124,13 @@ button,
 }
 
 .main-bg-mobile {
-    background: url("https://res.cloudinary.com/dzxx8m2el/image/upload/v1655455200/main_bg_mobile_xzpmip.webp");
+    background: url("../images/small-img/main_bg_mobile.jpg");
     display: none;
 }
 
 .main-bg-desktop {
-    background: url("https://res.cloudinary.com/dzxx8m2el/image/upload/v1655455191/main_bg_blmezl.webp");
+    background: url("../images/main_bg.jpg");
     display: block;
-}
-
-.bg-linear-gradient {
-    background: -o-linear-gradient(40deg, #2d557d, #9610fd, rgb(252 84 4));
-    background: linear-gradient(50deg, #2d557d, #9610fd, rgb(252 84 4));
 }
 
 .box-shadow {
@@ -555,10 +550,8 @@ button,
 
 #contact .contact-details {
     /* background-color: #2c78eb; */
-    background: -o-linear-gradient(40deg, #2d557d, #9610fd, rgb(252 84 4));
-    background: linear-gradient(50deg, #2d557d, #9610fd, rgb(252 84 4));
     padding: 50px 33px;
-    color: #fff;
+    color: #301934;
 }
 
 #contact .email-sent-message {
