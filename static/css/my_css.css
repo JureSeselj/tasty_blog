@@ -111,6 +111,7 @@ button,
 
 .btn {
     background-color: var(--interative-color);
+    color: #fff;
 }
 
 .bg-setup {
