@@ -33,7 +33,7 @@ html {
 }
 
 :root {
-    --interative-color: #2c95b9;
+    --interative-color: #B40052;
     --text-color-light: #999;
 }
 
@@ -152,8 +152,7 @@ button,
     width: 100%;
     position: fixed;
     z-index: 2000;
-    background: -o-linear-gradient(320deg, #2d557d, #9610fd, rgb(252 84 4));
-    background: linear-gradient(130deg, #2d557d, #9610fd, rgb(252 84 4));
+    background-image: url(../images/main_bg.jpg);
     display: none;
 }
 
@@ -276,7 +275,7 @@ button,
 }
 
 #search-box-button {
-    margin-top: 25px;
+    margin-top: 22px;
 }
 
 .navbar-brand {
@@ -457,7 +456,7 @@ button,
 
 #footer .copyright h3 {
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 #footer .footer-text {
@@ -466,8 +465,7 @@ button,
 }
 
 #footer hr {
-    background: -o-linear-gradient(350deg, #2d557d, #9610fd, rgb(252 84 4));
-    background: linear-gradient(100deg, #2d557d, #9610fd, rgb(252 84 4));
+    background:#999;
     height: 5px;
     z-index: 1000;
 }
