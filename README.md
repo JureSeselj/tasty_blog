@@ -480,7 +480,7 @@ message saying, "You forgot to search a recipe. Please try searching again.".<br
 
 ## Admin Panel/Superuser
 
-![No Search Found]()
+![No Search Found](./assets/readme/features/admin-panel.png)
 
 * On the Admin Panel, as an admin/superuser I have full access to CRUD functionality so I can view, create, edit and
 delete the following ones:
