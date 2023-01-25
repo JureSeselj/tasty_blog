@@ -184,14 +184,14 @@ chosen by the site admin by clicking the featured box in the post database.<br>
 
 ### About Page
 
-![About Page]()
+![About Page](./assets/readme/features/tasty-about-us.png)
 
 * The About Page gives, users information about the Tasty Blog website. It introduces the users to the
 website. It also details the main purpose and the goal of the blog.<br>
 
 ### Blog Page
 
-![Blog Page]()
+![Blog Page](./assets/readme/features/tasty-blog-page.png)
 
 * On the Blog Page, users have access to the full recipes posts available on the website.
 The user can choose to see the recipe detail by clicking on the recipe card.<br>
@@ -209,13 +209,13 @@ comments the post has received.<br>
 
 ### Post Detail Page - Steps
 
-![Post Detail Page - Steps]()
+![Post Detail Page - Steps](./assets/readme/features/post-details-steps.png)
 
 * In this page section, users can read the ingredients and follow the steps to complete the recipe.<br>
 
 ### Post Detail Page - Comments
 
-![Post Detail Page - Comments]()
+![Post Detail Page - Comments](./assets/readme/features/post-details-comments.png)
 
 * At the bottom of this page, users can read the comments posted by other users. If the user is logged in or is a 
 superuser they have access to the buttons for deleting or updating comments.
@@ -229,7 +229,7 @@ superuser they have access to the buttons for deleting or updating comments.
 
 ### Contact Page
 
-![Contact Page]()
+![Contact Page](./assets/readme/features/tasty-contact.png)
 
 * The Contact Page allows users to have access to the Tasty blog
 contact details. Users can also send an email to info@tastyblog by
