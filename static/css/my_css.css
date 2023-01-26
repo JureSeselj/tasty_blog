@@ -9,6 +9,9 @@
 /* Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700&display=swap');
 
+/* Explora */
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
 /*******************************
 *                              *
 *        GENERAL STYLES        *
@@ -438,8 +441,9 @@ button,
 }
 
 #footer img {
-    width: 50%;
+    width: 22%;
     margin-bottom: 10px;
+    opacity: 0.8;
 }
 
 #footer .copyright {
@@ -454,7 +458,7 @@ button,
 
 #footer .footer-text {
     width: 80%;
-    font-size: clamp(1rem, 2vw, 0.9rem)
+    font-size: clamp(1.4rem, 2vw, 0.9rem)
 }
 
 #footer hr {
