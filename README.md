@@ -222,7 +222,7 @@ superuser they have access to the buttons for deleting or updating comments.
 
 ### Edit Comments Page
 
-![Post Detail Page - Comments]()
+![Post Detail Page - Comments](./assets/readme/features/edit-comment.png)
 
 * On this page, users are allowed to comment, delete and edit their own post comments. The website superuser can 
   delete or update any comments on the blog without having to access the admin panel.
@@ -243,20 +243,20 @@ using the contact form available on this page.
 
 ### Categories Results
 
-![Categories Results Page]()
+![Categories Results Page](./assets/readme/features/category-desserts.png)
 
 * On the Categories Results Page, users can access the post filtered by the chosen category.
 
 ### Books Page
 
-![Books Page]()
+![Books Page](./assets/readme/features/books-page.png)
 
 * On this page, registered users can see favourite books posted by other users. If they had already
  published a post they are allowed to edit or delete their own posts.
 
 ### Add/Edit Books Page
 
-![Add/Edit Book Page]()
+![Add/Edit Book Page](./assets/readme/features/add-book-page.png)
 
 * On this page, register users can fill out the form to add or edit a post with their favourite cookbooks.
 
@@ -269,45 +269,45 @@ using the contact form available on this page.
 
 ### Search Results Page
 
-![Search Results Page]()
+![Search Results Page](./assets/readme/features/search-results.png)
 
 * On the Search Results Page, users can see the recipes found by their search.  When their recipe is located, the user can go to the 
   Post Details Page by clicking on the card result.
 
 ### Search Results - Input Empty
 
-![Search Results - Input Empty]()
+![Search Results - Input Empty](./assets/readme/features/search-empty.png)
 
 * On the Search Results Page - Input Empty, users will see this message if their search returns with an empty input.
 
 ### Search Results - No Results Found
 
-![Search Results - No Results Found]()
+![Search Results - No Results Found](./assets/readme/features/no-results-search.png)
 
 * On the Search Results Page - No Results Found, users will see this message if there is nothing found for the search.
 
 ### Signup Page
 
-![Signup Page]()
+![Signup Page](./assets/readme/features/sign-up.png)
 
 * On the Signup Page, a new user can sign up for the Tasty Blog website by filling out and then submitting the form.
 
 ### Login Page
 
-![Login Page]()
+![Login Page](./assets/readme/features/signin-page.png)
 
 * On the Login Page, users can log in to the website by inputting the username and password and have access 
   to website services for a user registered.
 
 ### Logout Page
 
-![Logout Page]()
+![Logout Page](./assets/readme/features/log-out.png)
 
 * On the Logout Page, users can confirm that they wish to exit the website.
 
 ### User Profile Page
 
-![User Profile Page]()
+![User Profile Page](./assets/readme/features/user-profil.png)
 
 *On the Profile Page, users have access to their own information and can update their user name, email and profile image.
 
