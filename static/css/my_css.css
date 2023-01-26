@@ -904,16 +904,16 @@ body.modal-open {
     }
 
     .carousel-bg-1-mobile {
-        background: url("https://res.cloudinary.com/dzxx8m2el/image/upload/v1657115789/main_bg_mobile_2_qiuzjg.webp");
+        background: url("../images/small-img/main_bg_mobile.jpg");
     }
 
     .carousel-bg-2-mobile {
-        background: url("https://res.cloudinary.com/dzxx8m2el/image/upload/v1657115818/pasta-bg-mobile_2_o04gns.webp");
+        background: url("../images/small-img/pasta_bg_mobile.jpg");
 
     }
 
     .carousel-bg-3-mobile {
-        background: url("https://res.cloudinary.com/dzxx8m2el/image/upload/v1657115849/cocktail_bg-mobile_2_uiptph.webp");
+        background: url("../images/small-img/cocktail_mobile.jpg");
     }
 
     .hr-small {
