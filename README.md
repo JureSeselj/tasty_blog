@@ -262,7 +262,7 @@ using the contact form available on this page.
 
 ### Search Box
 
-![Search Box]()
+![Search Box](./assets/readme/features/search-box.png)
 
 * In this box, the users can search by inputting a keyword in the search tool. This allows the user to try and find 
   the recipe they are looking for.
