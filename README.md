@@ -237,7 +237,7 @@ using the contact form available on this page.
 
 ### Categories Page
 
-![Categories Page ]()
+![Categories Page ](./assets/readme/features/categories-page.png)
 
 * On the Categories Page, users can see the categories available in the blog and filter the posts by category.
 
