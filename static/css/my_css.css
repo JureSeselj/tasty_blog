@@ -454,7 +454,7 @@ button,
 
 #footer .footer-text {
     width: 80%;
-    font-size: clamp(0.8rem, 2vw, 0.9rem)
+    font-size: clamp(1rem, 2vw, 0.9rem)
 }
 
 #footer hr {

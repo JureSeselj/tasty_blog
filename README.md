@@ -170,7 +170,7 @@ Wireframes for this project can be located [here](WIREFRAMES.md)
 
 ### Home Page
 
-![Home Page]()
+![Home Page](./assets/readme/features/home-page.png)
 
 * The hero image welcomes the user with a short message advertising what the website is about. These
 are 3 carousel images with a button. When the button is pressed, it brings the user down to the highlighted recipes.<br>
