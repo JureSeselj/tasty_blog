@@ -313,7 +313,7 @@ using the contact form available on this page.
 
 ### Navbar
 
-![Navbar]()
+![Navbar](./assets/readme/features/navbar.png)
 
 * The navigation bar is present at the top of every page and houses all links to the various other pages.
 * The options to Register or Log in will change to the option to log out once a user has logged in.
@@ -321,7 +321,7 @@ using the contact form available on this page.
 * A search icon is nested in the navbar and once clicked it will open the search box.
 * The navbar is fully responsive, collapsing into a hamburger menu when the screen size becomes smaller.
 
-![Navbar]()
+![Navbar](./assets/readme/features/dropdown-navbar.png)
 
 * In the navbar users can access on categories list by clicking on the dropdown menu.
 
