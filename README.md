@@ -327,7 +327,7 @@ using the contact form available on this page.
 
 ### Footer
 
-![Footer]()
+![Footer](./assets/readme/features/footer.png)
 
 * On the website footer, users can see basic information about the blog such as contact, social media, 
   copyright, and a quote about food recipes.
@@ -395,14 +395,14 @@ user's experience.
 
 ### Delete/Edit Comment
 
-![Delete Comment]()
+![Delete Comment](./assets/readme/features/delete%3Aedit-comment.png)
 
 * When user is logged in to website and they have previously posted a comment or if the user is a superuser they will see the 
 Delete and Edit buttons at the bottom of comments.<br>
 
 ### Delete Comment - 1
 
-![Delete Comment - 1]()
+![Delete Comment - 1](./assets/readme/features/delete%3Dcomment.png)
 
 * If they wish to delete their comment, they can press the button Delete and a Bootstrap box model will pop up with the message 
   "Are you sure you want to delete your comment?".<br>
