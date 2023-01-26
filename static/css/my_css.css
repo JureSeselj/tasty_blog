@@ -236,18 +236,6 @@ button,
     position: fixed;
 }
 
-/*.navbar.nav-active {
-    position: fixed;
-    background: -o-linear-gradient(350deg, #2d557d, #9610fd, #fc5404);
-    background: linear-gradient(90deg, rgba(196,182,27,1) 0%, rgba(200,203,2,1) 53%, rgba(9,9,121,1) 100%);
-    -webkit-box-shadow: rgb(1 1 1 / 50%) 1px 10px 10px -1px;
-    box-shadow: rgb(1 1 1 / 50%) 1px 10px 10px -1px;
-    height: 60px;
-} 
-.nav-link.nav-active {
-    color: #fff !important;
-}*/
-
 .nav-link {
     color: black;
     -webkit-transition: all ease-in 0.3s;
@@ -280,15 +268,15 @@ button,
 }
 
 .navbar-brand {
-    margin-right: -180px !important;
+    margin-right: -360px !important;
 }
 
 .navbar-brand img {
-    width: 50%;
+    width: 34%;
 }
 
 .navbar-brand img.nav-active {
-    width: 48%;
+    width: 32%;
 }
 
 .navbar .btn {
@@ -354,6 +342,10 @@ button,
 
 #hero .btn:hover {
     padding: 10px 38px;
+    background-color: #fff;
+    color: #B40052;
+    border-radius: 25px;
+    border: 2px solid #B40052;
 }
 
 #hero .carousel-caption h2 {
