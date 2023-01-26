@@ -39,17 +39,13 @@ code and could not be changed to remove the errors.
 Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on Desktop.
 
 ##### Desktop Results:
-![Lighthouse Mobile Result]()
-
-###### Mobile Results:
-![Lighthouse Desktop Result]()
+![Lighthouse Desktop Result](./assets/readme/test/Screenshot%202023-01-26%20at%2023.01.36.png)
 
 ### HTML Validation
 ![HTML Validation Result]()
 
 ### CSS Validation
-![CSS Validation Result]()
-![CSS Validation Result]()
+![CSS Validation Result](./assets/readme/test/tasty_blog_css_validator_results.jpg)
 * Custom CSS was validated using W3C Jigsaw validation service. Forty-three warnings were displayed, however, 
   these are related to Google Fonts and vendor extension prefixes which will not affect the CSS performance.
 
@@ -58,10 +54,6 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 
 ### jQuery Validation
 ![CSS Validation Result](./assets/readme/test/tasty_blog_jquery_validator_results.jpg)
-
-### Console Results:
-![Console Result]()
-* The browser console is clean, no errors are  showing.
 
 ## Manual Testing
 ### Frontend
@@ -103,17 +95,17 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 * When the author is posting a new recipe all the required fields have to be filled otherwise the author can't submit the post to the database.
 
 ### Manual Test Case
-The Test case for this project can be found [here]()
+The Test case for this project can be found [here](./assets/readme/test/test_case/)
 
 ## Bugs
 
 ### Terminal Bug
 
 #### Comment Model 
-![Comment Model]()
+![Comment Model](./assets/readme/extras/comments_model_issue.jpg)
 
 #### Terminal Error
-![Comment Model - Terminal]()
+![Comment Model - Terminal](./assets/readme/extras/terminal_comment_model_issue.jpg)
 
 * While I was developing the project I tried to add a comment profile Image to the comments model by adding a 
   foreign key related to the profile model. When I was doing the migrations, the terminal required a default 

@@ -378,70 +378,46 @@ Delete and Edit buttons at the bottom of comments.<br>
   "Are you sure you want to delete your comment?".<br>
 
 ### Delete Comment - 2
-
-![Delete Comment - 2]()
-
 * After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
   top of the page, "Your comment was deleted successfully".<br>
 
 ### Edit Comment
-
-![Edit Comment]()
-
 * After pressing the Update, users will see a message on the top of the page, "The comment was successfully updated".<br>
 
 ### Email Sent - Success
-
-![Email Sent - Success]()
-
 * After users submit the form to info@tastyblog successfully, they will see the message, "Thanks for your email! 
   We will contact you as soon as possible".<br>
 
 ### Email Sent - Failed
-
-![Email Sent - Failed]()
-
 * If the email was not submitted successfully, users will see the message, "Sorry, something went wrong! 
   Try to submit your email again".<br>
 
 ### Add Book
-
-![Add Book]()
-
 * When user is logged in to website they can publish a post with a favourite cookbook and after they submit the 
 post they will see a message at the top of the page saying "Your post was sent successfully and is awaiting approval".<br>
 
 ### Edit Book
-
-![Edit Book]()
-
 * When user is logged in to website they can edit their own posts published previously and they will see the message 
 "The post was successfully updated" after pressing the Submit button.<br>
 
 ### Delete Book 1 
-
-![Delete Book 1]()
-
 * When user is logged in to website and they wish to delete their posts, they can press the button Delete and a 
 Bootstrap box model will pop up with the message "Are you sure you want to delete your post?".<br>  
 
 ### Delete Book 2
-
-![Delete Book 2]()
-
 * After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
   top of the page, "Your post was deleted successfully".<br>
 
 ### Empty Search
 
-![Empty Search]()
+![Empty Search](./assets/readme/features/empty-search.png)
 
 * Any user can search for a keyword using the input search and if the search is done with an empty input they will see a
 message saying, "You forgot to search a recipe. Please try searching again.".<br>
 
 ### No Search Found
 
-![No Search Found]()
+![No Search Found](./assets/readme/features/no-results-search.png)
 
 * And if there are no results matching or similar to the keyword, the user will see the following message, "We are sorry. 
   There are no searches for (keyword) on the website. Try the search again".<br>
