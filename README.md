@@ -191,7 +191,7 @@ website. It also details the main purpose and the goal of the blog.<br>
 
 ### Blog Page
 
-![Blog Page](./assets/readme/features/tasty-blog-page.png)
+![Blog Page](./assets/readme/features/blog-page.png)
 
 * On the Blog Page, users have access to the full recipes posts available on the website.
 The user can choose to see the recipe detail by clicking on the recipe card.<br>
