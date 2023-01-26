@@ -198,7 +198,7 @@ The user can choose to see the recipe detail by clicking on the recipe card.<br>
 
 ### Post Detail Page - Top
 
-![Post Detail Page - Top]()
+![Post Detail Page - Top](./assets/readme/features/post-detail-top.png)
 
 * At the top of the Post Details Page, users can see the post's main
 image and they can also have access to information about the post. The
