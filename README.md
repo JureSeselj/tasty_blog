@@ -141,7 +141,7 @@ All functionality and development of this project were managed using GitHub whic
 
 #### Colours
 
-![Colours Palete]
+![Colours Palete](./assets/readme/extras/screenshot-colour-used.png)
 
 * The colour scheme is kept simple by opting for a combination of white text set against the image
 background and black text against the white background. For the navbar was set as a white background
