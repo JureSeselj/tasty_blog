@@ -177,7 +177,7 @@ are 3 carousel images with a button. When the button is pressed, it brings the u
 
 ### Home Page - Highlights Posts
 
-![Home Page - Highlight Posts](./assets/readme/features/tasty-highlights.png)
+![Home Page - Highlight Posts](./assets/readme/features/home-highlights.png)
 
 * In the highlighted posts, users can see a selection of 6 recipes. These recipes are
 chosen by the site admin by clicking the featured box in the post database.<br>
