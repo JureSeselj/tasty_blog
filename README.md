@@ -340,56 +340,26 @@ using the contact form available on this page.
 user's experience.
 
 ### Sign up
-
-![Sign up]()
-
 * When users sign up to the website they will see a message at the top of the page saying "Successfully signed in as
 (username)".<br>
-
 ### Login
-
-![Login]()
-
 * When users sign in to the website they will see a message at the top of the page saying "Successfully signed in as
 (username)".<br>
-
 ### Logout
-
-![Logout]()
-
 * When users log out of the website they will see a message at the top of the page saying "You have signed out".<br>
 
 ### Profile Update
-
-![Profile Update]()
-
 * When users update their profile they will see a message at the top of the page saying that their account has been updated.<br>
-
 ### Like Post
-
-![Like Post]()
-
 * *When users are logged in to the website they can like a post and they will see a message at the top of the page 
   saying "You have liked this post".<br>
-
 ### Unlike Post
-
-![Unlike Post]()
-
 * When users are logged in to the website they can unlike a post that has been liked by the user and they will see a message 
   at the top of the page saying "You have unliked this post".<br>
-
 ### Comment Post
-
-![Comment Post]()
-
 * When users are logged in to the website they can comment on a post and after they submit the comment they will see a 
   message at the top of the page saying "Your comment was sent successfully and is awaiting approval".<br>
-
 ### Comment Post - 2
-
-![Comment Post - 2]()
-
 * After a user submits a comment, they will see a message over the input comment saying "Thanks (username). Your 
   comment is awaiting approval! <br>
 
