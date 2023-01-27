@@ -9,7 +9,7 @@ on the Books Page and upload or update their user image and details.
 
 [Live Project Here](https://tasty-blog-app.herokuapp.com/)
 
-<p align="center"><img src="./"
+<p align="center"><img src="./assets/readme/features/tasty-blog-responsive.png"
         alt="Tasty Blog webpage on multiple devices"></p>
 
 # Table of Contents
