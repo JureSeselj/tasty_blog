@@ -129,7 +129,7 @@ button,
 
 .main-bg-mobile {
     display: none;
-    background: url("/static/images/main_bg.jpg");
+    background: url("../images/main_bg.jpg");
 }
 
 .main-bg-desktop {
@@ -321,15 +321,15 @@ button,
 }
 
 .carousel-bg-1 {
-    background: url('/static/images/main_bg.jpg');
+    background: url('../static/images/main_bg.jpg');
 }
 
 .carousel-bg-2 {
-    background: url('/static/images/pasta_bg.jpg');
+    background: url('../static/images/pasta_bg.jpg');
 }
 
 .carousel-bg-3 {
-    background: url('/static/images/cocktail-drinks_bg.jpg');
+    background: url('../static/images/cocktail-drinks_bg.jpg');
 }
 
 #hero .btn {
