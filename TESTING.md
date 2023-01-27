@@ -42,7 +42,7 @@ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO o
 ![Lighthouse Desktop Result](./assets/readme/test/Screenshot%202023-01-26%20at%2023.01.36.png)
 
 ### HTML Validation
-![HTML Validation Result]()
+![HTML Validation Result](./assets/readme/test/html-validator.png)
 
 ### CSS Validation
 ![CSS Validation Result](./assets/readme/test/tasty_blog_css_validator_results.jpg)
