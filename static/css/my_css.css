@@ -129,7 +129,7 @@ button,
 
 .main-bg-mobile {
     display: none;
-    background-image: url(../images/main_bg.jpg);
+    background: url("static/images/main_bg");
 }
 
 .main-bg-desktop {
