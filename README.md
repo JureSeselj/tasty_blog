@@ -1,4 +1,4 @@
-![Logo]
+![Logo](./static/images/logos/apple-touch-icon.png)
 # Tasty Blog 
 
 # Goal for this Project
@@ -7,7 +7,7 @@ is a recipe book where users can look or search for a recipe to prepare. When th
 like/unlike a post and comment on a post. They can also share their favourite cookbooks by adding a post 
 on the Books Page and upload or update their user image and details.
 
-[Live Project Here]()
+[Live Project Here](https://tasty-blog-app.herokuapp.com/)
 
 <p align="center"><img src="./"
         alt="Tasty Blog webpage on multiple devices"></p>
