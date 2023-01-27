@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@heroku-cli/plugin-run": "^7.67.1"
+  }
+}
