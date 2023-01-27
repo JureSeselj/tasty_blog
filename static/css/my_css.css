@@ -156,7 +156,7 @@ button,
     width: 100%;
     position: fixed;
     z-index: 2000;
-    background: url("//static/images/main_bg.jpg");
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674782736/main_bg_ktk7cj.jpg");
     display: none;
 }
 
@@ -908,16 +908,16 @@ body.modal-open {
     }
 
     .carousel-bg-1-mobile {
-        background: url("../images/small-img/main_bg_mobile.jpg");
+        background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787408/main_bg_mobile_xscsox.jpg");
     }
 
     .carousel-bg-2-mobile {
-        background: url("../images/small-img/pasta_bg_mobile.jpg");
+        background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787772/pasta_bg_mobile_rnvmxc.jpg");
 
     }
 
     .carousel-bg-3-mobile {
-        background: url("../images/small-img/cocktail_mobile.jpg");
+        background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787804/cocktail_mobile_n5x3zs.jpg");
     }
 
     .hr-small {
