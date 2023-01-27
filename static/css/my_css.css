@@ -325,11 +325,11 @@ button,
 }
 
 .carousel-bg-2 {
-    background: url('../static/images/pasta_bg.jpg');
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787166/pasta_bg_tmatxj.jpg");
 }
 
 .carousel-bg-3 {
-    background: url('../static/images/cocktail-drinks_bg.jpg');
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787226/cocktail-drinks_bg_nbqdwo.jpg");
 }
 
 #hero .btn {
