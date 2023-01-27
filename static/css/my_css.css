@@ -129,11 +129,11 @@ button,
 
 .main-bg-mobile {
     display: none;
-    background: url("../images/main_bg.jpg");
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674787408/main_bg_mobile_xscsox.jpg");
 }
 
 .main-bg-desktop {
-    background: url("../images/main_bg.jpg");
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674782736/main_bg_ktk7cj.jpg");
     display: block;
 }
 
