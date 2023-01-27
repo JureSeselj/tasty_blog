@@ -321,7 +321,7 @@ button,
 }
 
 .carousel-bg-1 {
-    background: url('../static/images/main_bg.jpg');
+    background: url("https://res.cloudinary.com/dm4myijvz/image/upload/v1674782736/main_bg_ktk7cj.jpg");
 }
 
 .carousel-bg-2 {
